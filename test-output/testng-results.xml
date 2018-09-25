@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11070" started-at="2018-09-11T09:26:42Z" finished-at="2018-09-11T09:26:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11070" started-at="2018-09-11T09:26:42Z" finished-at="2018-09-11T09:26:53Z">
+      <class name="Capabilitydiss.Capability">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Capabilitydiss.Capability@4d95d2a2]" name="setup" is-config="true" duration-ms="10805" started-at="2018-09-11T14:56:42Z" finished-at="2018-09-11T14:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tesst1(java.lang.String)[pri:0, instance:Capabilitydiss.Capability@4d95d2a2]" name="tesst1" duration-ms="226" started-at="2018-09-11T14:56:52Z" finished-at="2018-09-11T14:56:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesst1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Capabilitydiss.Capability@4d95d2a2]" name="close" is-config="true" duration-ms="1" started-at="2018-09-11T14:56:53Z" finished-at="2018-09-11T14:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Capabilitydiss.Capability -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

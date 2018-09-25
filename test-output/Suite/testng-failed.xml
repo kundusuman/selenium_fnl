@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="password" value="mercury"/>
+  <parameter name="username" value="mercury"/>
+  <test name="Test1(failed)">
+    <parameter name="password" value="mercury"/>
+    <parameter name="username" value="mercury"/>
+    <groups>
+      <run>
+        <include name="oneway"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="flight.oneway.Oneway">
+        <methods>
+          <include name="selectTrip"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup1"/>
+          <include name="selectOne"/>
+        </methods>
+      </class> <!-- flight.oneway.Oneway -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <parameter name="password" value="mercury"/>
+    <parameter name="username" value="mercury"/>
+    <groups>
+      <run>
+        <include name="twoway"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="flight.oneway.Oneway">
+        <methods>
+          <include name="login"/>
+          <include name="selectTrip"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="roundTrip"/>
+          <include name="setup1"/>
+        </methods>
+      </class> <!-- flight.oneway.Oneway -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

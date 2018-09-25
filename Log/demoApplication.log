@@ -1,0 +1,10 @@
+22 Aug 2018 14:10:30,030[main] DEBUG LogDemo.class  - opening property file
+22 Aug 2018 14:10:39,039[main] DEBUG LogDemo.class  - visiting web site
+22 Aug 2018 14:13:11,011[main] DEBUG log4j.LogDemo  - opening property file
+22 Aug 2018 14:13:35,035[main] DEBUG log4j.LogDemo  - visiting web site
+22 Aug 2018 14:13:36,036[main] DEBUG log4j.LogDemo  - reading value from property file
+22 Aug 2018 14:13:40,040[main] DEBUG log4j.LogDemo  - reading password from property file sdfdh
+22 Aug 2018 14:16:44,044[main] DEBUG log4j.LogDemo  - opening property file
+22 Aug 2018 14:17:07,007[main] DEBUG log4j.LogDemo  - visiting web site
+22 Aug 2018 14:17:08,008[main] DEBUG log4j.LogDemo  - reading value from property file
+22 Aug 2018 14:17:11,011[main] DEBUG log4j.LogDemo  - reading password from property file sdfdh

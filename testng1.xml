@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="tests">
+  <test thread-count="5" name="Test">
+  <parameter name = "firstName" value="suman"/>
+  <parameter name="lastName" value="kundu"/>
+  <parameter name="userName" value="letstesttogether1234"/>
+  <parameter name="passWord" value="qwerty12345@"/>
+  
+    <classes>
+      <class name="gmail.accnTest.TestNGTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
